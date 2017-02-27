@@ -1,0 +1,7 @@
+version: '2'
+services:
+  app:
+    image: php
+    command: php php/hello.php
+    volumes:
+      - .:/php
